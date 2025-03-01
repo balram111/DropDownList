@@ -1,0 +1,131 @@
+body {
+    width: 420px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.wrapper {
+    padding: 30px;
+    background-color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 20px;
+    font-weight: bold;
+    /* align-content: space-between; */
+    align-items: center;
+}
+
+.line1 {width: 69px;height: 1px;background: #bbbbbb;}
+
+.line3 {
+    width: 150px;
+    height: 1px;
+    background: black;
+}
+
+.line2 {
+    padding: 0 10px;
+    color: #ff6b82;
+}
+
+.box1Main,.box2Main,.box3Main {
+    display: flex;
+    padding: 15px 15px;
+    margin: 15px 0px;
+    border: 1px solid gray;
+    flex-direction: column;
+}
+.box1top,.box2top,.box3top {
+    display: flex;
+    align-items: center;
+}
+.unit1Main,.unit2Main,.unit3Main {
+    width: 197px;
+}
+
+.unit1price,.unit2price,.unit3price {
+    width: 88px;
+}
+input[type="radio"] {
+    margin: 0 10px 0 0;
+}
+
+.unit1Div,.unit2Div,.unit3Div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.unit1offr,.unit2offr,.unit3offr {
+    background: #ff6b82;
+    color: white;
+    padding: 2px 5px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+
+.unit1txt,.unit2txt,.unit3txt {
+    font-weight: bold;
+}
+
+.unit1price1,.unit2price1,.unit3price1 {
+    font-weight: bold;
+}
+.unit1price2,.unit2price2,.unit3price2 {
+    font-size: 13px;
+    width: max-content;
+    text-decoration: line-through;
+}
+
+.boxbottomDetails {
+    font-size: 13px;
+    width: 200px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+select {
+    width: 70px;
+    padding: 2px;
+    margin: 2px 15px 2px 0;
+    border: 1px solid gray;
+}
+
+.delivery {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.deliverytxt {
+    color: #ff6b82;
+}
+
+button.addtocart {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6b82;
+    border: 0px solid #ff6b82;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.poweredby {
+    font-style: italic;
+    text-align: right;
+    font-size: 13px;
+    color: #bbbbbb;
+}
+
+
